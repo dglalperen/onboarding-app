@@ -15,9 +15,9 @@ export default function HomeScreen() {
   };
   return (
     <View style={styles.container}>
-      <Text>HomeScreen</Text>
-      <TouchableOpacity onPress={clearOnboarding}>
-        <Text>Clear Onboarding</Text>
+      <Text style={styles.text}>Home Screen</Text>
+      <TouchableOpacity style={styles.button} onPress={clearOnboarding}>
+        <Text style={styles.buttonText}>Clear Onboarding</Text>
       </TouchableOpacity>
     </View>
   );
@@ -26,7 +26,25 @@ export default function HomeScreen() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
+    backgroundColor: "#444b6f",
     justifyContent: "center",
     alignItems: "center",
+  },
+  text: {
+    fontSize: 30,
+    fontWeight: "900",
+    color: "white",
+    marginBottom: 40,
+  },
+  button: {
+    backgroundColor: "#f4338f",
+
+    borderRadius: "50%",
+  },
+  buttonText: {
+    fontSize: 30,
+    padding: 20,
+    fontWeight: "500",
+    color: "white",
   },
 });
