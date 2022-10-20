@@ -26,19 +26,16 @@ export default function HomeScreen() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: "#444b6f",
     justifyContent: "center",
     alignItems: "center",
   },
   text: {
     fontSize: 30,
     fontWeight: "900",
-    color: "white",
     marginBottom: 40,
   },
   button: {
-    backgroundColor: "#f4338f",
-
+    backgroundColor: "#444b6f",
     borderRadius: "50%",
   },
   buttonText: {
