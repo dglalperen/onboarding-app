@@ -26,4 +26,10 @@ export default [
     description: "Adjust your system to speed up your checkout",
     image: require("./assets/customize.png"),
   },
+  {
+    id: 5,
+    title: "ENDE",
+    description: "Adjust your system to speed up your checkout",
+    image: require("./assets/customize.png"),
+  },
 ];

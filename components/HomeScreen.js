@@ -36,7 +36,7 @@ const styles = StyleSheet.create({
   },
   button: {
     backgroundColor: "#444b6f",
-    borderRadius: "50%",
+    borderRadius: 40,
   },
   buttonText: {
     fontSize: 30,

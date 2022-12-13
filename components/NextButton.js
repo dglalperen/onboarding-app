@@ -4,11 +4,9 @@ import Svg, { G, Circle } from "react-native-svg";
 import { AntDesign } from "@expo/vector-icons";
 import Animated, {
   useAnimatedProps,
-  useDerivedValue,
   useSharedValue,
   withTiming,
 } from "react-native-reanimated";
-import { ReText } from "react-native-redash";
 
 const AnimatedCircle = Animated.createAnimatedComponent(Circle);
 
@@ -73,7 +71,7 @@ const styles = StyleSheet.create({
   button: {
     position: "absolute",
     backgroundColor: "#f4338f",
-    borderRadius: "50%",
+    borderRadius: 40,
     padding: 20,
   },
 });
